@@ -10,6 +10,14 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Hello World</servlet-name>
-        <url-pattern>/Serv1</url-pattern>
+        <url-pattern>/helloworld</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Ch3 Beer</servlet-name>
+        <servlet-class>com.example.web.BeerSelect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ch3 Beer</servlet-name>
+        <url-pattern>/SelectBeer.do</url-pattern>
     </servlet-mapping>
 </web-app>
